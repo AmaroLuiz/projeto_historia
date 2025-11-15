@@ -325,6 +325,7 @@ article .painel {
         position: relative;
         width: 100%;
         white-space: nowrap;
+        overflow: hidden;
     }
     
     #intro img {
