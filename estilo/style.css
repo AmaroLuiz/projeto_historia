@@ -286,6 +286,14 @@ h1, h2 {
 
 }
 
+h3 {
+    justify-self: center;
+    /* font-family: var(--font0); */
+    font-size: 2em;
+    color: var(--cor02);
+}
+
+
 #filme {
     grid-area: 2 / 2 / 3/ 3;
     font-size: 4em;
@@ -313,10 +321,105 @@ article .painel {
 }
 
 .titulo {
-    padding-top: 100px;
+    padding-top: 200px;
+    display: flex;
+    justify-self: center;
+
+    font-weight: bold;
+    font-size: 3em;
+    font-family: var(--font01);
+    background: linear-gradient(to right, #E08810, #6E1E0C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-/* 
-@media screen and (min-width:200px) and (max-width:992px) {
+
+.quadrado {
+    margin-top: 200px;
+    background-color: black;
+    justify-self: center;
+    width: 70%;
+    height: 400px;
+    border: 3px solid var(--cor05);
+    border-radius: 10px;
+}
+
+.tituloquadrado {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    border-bottom: 3px solid var(--cor05);
+    align-content: center;
+}
+
+#ultimo {
+    margin-top: 100px
+}
+
+#gridfinal {
+    display: grid;
+    grid-template-columns: 1fr 300px 20px 300px 20px 300px 1fr;
+    grid-template-rows: 100px 300px 20px 300px 20px 300px 100px;
+}
+
+.fundoquadrado {
+    background-color: black;
+    border: 3px solid var(--cor05);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px var(--cor01);
+    align-content: flex-end;
+}
+
+.rodapequadrado {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border-top: 3px solid var(--cor05);
+    box-shadow: 1px 1px 10px var(--cor01);
+}
+
+#f1 {
+    grid-area: 2/ 2 / 3 /3;
+}
+
+#f2 {
+    grid-area: 2/ 4 / 3 /5;
+}
+
+#f3 {
+    grid-area: 2/ 6 / 3 /7;
+}
+
+#f4 {
+    grid-area: 4/ 2 / 5 / 3;
+}
+
+#f5 {
+    grid-area: 4 / 4 / 5 / 5;
+}
+
+#f6 {
+    grid-area: 4 / 6 / 5 / 7;
+}
+
+#f7 {
+    grid-area: 6 / 2 / 7 / 3;
+}
+
+#f8 {
+    grid-area: 6 / 4 / 7 / 5;
+}
+
+#f9 {
+    grid-area: 6 / 6 / 7 / 7;
+}
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
 
     #intro {
         display: grid;
@@ -327,7 +430,7 @@ article .painel {
         white-space: nowrap;
         overflow: hidden;
     }
-    
+
     #intro img {
         grid-area: 1/ 1 / 5 /5;
         width: 100%;
@@ -335,7 +438,7 @@ article .painel {
         opacity: 0.4;
         background-size: cover;
         z-index: 0;
-        
+
     }
 
     #filme {
@@ -354,10 +457,52 @@ article .painel {
         justify-self: end;
         margin-right: 20px;
     }
+
     .titulo {
         background-size: cover;
     }
 
+    #gridfinal {
+        display: grid;
+        grid-template-columns: 1fr 90% 1fr;
+        grid-template-rows: 100px 300px 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px 100px;
+    }
+
+    #f1 {
+        grid-area: 2/ 2 / 3 / 3 ;
+    }
+
+    #f2 {
+        grid-area: 4/ 2 / 5 / 3 ;
+    }
+
+    #f3 {
+        grid-area: 6/ 2 / 7 / 3 ;
+    }
+
+    #f4 {
+        grid-area: 8/ 2 / 9 / 3;
+    }
+
+    #f5 {
+        grid-area: 10 / 2 / 11 / 3;
+    }
+
+    #f6 {
+        grid-area: 12 / 2 / 13 / 3;
+    }
+
+    #f7 {
+        grid-area: 14 / 2 / 15 / 3;
+    }
+
+    #f8 {
+        grid-area: 16 / 2 / 17 / 3;
+    }
+
+    #f9 {
+        grid-area: 18 / 2 / 19 / 3;
+    }
 
 
-} */
+}
