@@ -315,7 +315,7 @@ article .painel {
 .titulo {
     padding-top: 100px;
 }
-
+/* 
 @media screen and (min-width:200px) and (max-width:992px) {
 
     #intro {
@@ -335,10 +335,7 @@ article .painel {
         opacity: 0.4;
         background-size: cover;
         z-index: 0;
-        /* max-width: 992px;
-        min-width: 68;
-        min-height: 500px;
-        max-height: 992px; */
+        
     }
 
     #filme {
@@ -363,4 +360,4 @@ article .painel {
 
 
 
-}
+} */
