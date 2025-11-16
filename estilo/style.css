@@ -338,7 +338,7 @@ article .painel {
     font-size: 3em;
     font-family: var(--font01);
     background: linear-gradient(to right, #E08810, #6E1E0C);
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -399,39 +399,39 @@ article .painel {
     box-shadow: 1px 1px 10px var(--cor01);
 }
 
-.f1 {
+#f1 {
     grid-area: 2/ 2 / 3 /3;
 }
 
-.f2 {
+#f2 {
     grid-area: 2/ 4 / 3 /5;
 }
 
-.f3 {
+#f3 {
     grid-area: 2/ 6 / 3 /7;
 }
 
-.f4 {
+#f4 {
     grid-area: 4/ 2 / 5 / 3;
 }
 
-.f5 {
+#f5 {
     grid-area: 4 / 4 / 5 / 5;
 }
 
-.f6 {
+#f6 {
     grid-area: 4 / 6 / 5 / 7;
 }
 
-.f7 {
+#f7 {
     grid-area: 6 / 2 / 7 / 3;
 }
 
-.f8 {
+#f8 {
     grid-area: 6 / 4 / 7 / 5;
 }
 
-.f9 {
+#f9 {
     grid-area: 6 / 6 / 7 / 7;
 }
 
@@ -440,7 +440,7 @@ article .painel {
 
 
 
-@media screen and (min-width:768px) and (max-width:1028px) {
+@media screen and (min-width:1px) and (max-width:1028px) {
 
     #intro {
         display: grid;
@@ -493,39 +493,39 @@ article .painel {
         grid-template-rows: 100px 300px 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px 20px 300px 100px;
     }
 
-    .f1 {
+    #f1 {
         grid-area: 2/ 2 / 3 / 3 ;
     }
 
-    .f2 {
+    #f2 {
         grid-area: 4/ 2 / 5 / 3 ;
     }
 
-    .f3 {
+    #f3 {
         grid-area: 6/ 2 / 7 / 3 ;
     }
 
-    .f4 {
+    #f4 {
         grid-area: 8/ 2 / 9 / 3;
     }
 
-    .f5 {
+    #f5 {
         grid-area: 10 / 2 / 11 / 3;
     }
 
-    .f6 {
+    #f6 {
         grid-area: 12 / 2 / 13 / 3;
     }
 
-    .f7 {
+    #f7 {
         grid-area: 14 / 2 / 15 / 3;
     }
 
-    .f8 {
+    #f8 {
         grid-area: 16 / 2 / 17 / 3;
     }
 
-    .f9 {
+    #f9 {
         grid-area: 18 / 2 / 19 / 3;
     }
 
