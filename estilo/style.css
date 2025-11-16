@@ -338,7 +338,7 @@ article .painel {
     font-size: 3em;
     font-family: var(--font01);
     background: linear-gradient(to right, #E08810, #6E1E0C);
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 
