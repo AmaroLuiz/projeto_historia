@@ -351,6 +351,9 @@ article .painel {
     border: 3px solid var(--cor05);
     border-radius: 10px;
 
+    box-shadow: 2px 3px 10px var(--cor05);
+
+
     display: grid;
     flex-direction: column;
 
@@ -372,6 +375,7 @@ article .painel {
     text-align: justify;
     margin: 20px;
     line-height: 1.5em;
+    text-indent: 1em;
 }
 #ultimo {
     margin-top: 100px
@@ -403,9 +407,20 @@ article .painel {
     grid-area: 2/ 2 / 3 /3;
 }
 
+.computadores {
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.computadores img {
+    border-radius: 10px 10px 0px 0px;
+}
+
 #f2 {
     grid-area: 2/ 4 / 3 /5;
 }
+
 
 #f3 {
     grid-area: 2/ 6 / 3 /7;
@@ -435,6 +450,41 @@ article .painel {
     grid-area: 6 / 6 / 7 / 7;
 }
 
+#r1 {
+    align-content: center;
+}
+
+#r2 {
+    align-content: center;
+}
+
+#r3 {
+    align-content: center;
+}
+
+#r4 {
+    align-content: center;
+}
+
+#r5 {
+    align-content: center;
+}
+
+#r6 {
+    align-content: center;
+}
+
+#r7 {
+    align-content: center;
+}
+
+#r8 {
+    align-content: center;
+}
+
+#r9 {
+    align-content: center;
+}
 
 
 
@@ -459,7 +509,6 @@ article .painel {
         opacity: 0.4;
         background-size: cover;
         z-index: 0;
-
     }
 
     #filme {
@@ -480,8 +529,11 @@ article .painel {
     }
 
     .titulo {
+        display: flex;
         background-size: cover;
         padding: 20px;
+        margin-top: 40px;
+        justify-content: center;
     }
     .pequeno {
         font-size: 1.5em;
