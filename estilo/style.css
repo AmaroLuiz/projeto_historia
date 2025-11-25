@@ -486,7 +486,19 @@ article .painel {
     align-content: center;
 }
 
-
+footer {
+    background-color: rgba(62, 62, 62, 0.479);
+    width: 100%;
+    height: 50px;
+    align-content: center;
+}
+footer > h4 {
+    display: flex;
+    color: #F74614;
+    text-align: center;
+    font-size: 1.3em;
+    justify-self: center;
+}
 
 
 
@@ -532,7 +544,7 @@ article .painel {
         display: flex;
         background-size: cover;
         padding: 20px;
-        font-size: 1.6em;
+        font-size: 2.2em;
         margin-top: 40px;
         justify-content: center;
     }
@@ -583,6 +595,4 @@ article .painel {
     #f9 {
         grid-area: 18 / 2 / 19 / 3;
     }
-
-
 }
