@@ -538,7 +538,9 @@ article .painel {
     .pequeno {
         font-size: 1.5em;
     }
-
+    .quadrado {
+        width: 90%;
+    }
     #gridfinal {
         display: grid;
         grid-template-columns: 1fr 90% 1fr;
